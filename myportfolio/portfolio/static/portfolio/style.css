@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.projects img {
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}

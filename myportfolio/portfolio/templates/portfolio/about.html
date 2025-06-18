@@ -1,0 +1,11 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+{% block content %}
+<h2>Projects</h2>
+<div class="projects">
+    <img src="{% static 'portfolio/images/project1.png' %}" alt="Project 1" width="200">
+    <img src="{% static 'portfolio/images/project2.jfif' %}" alt="Project 2" width="200">
+    <img src="{% static 'portfolio/images/project3.webp' %}" alt="Project 3" width="200">
+</div>
+<p>These are just beginner-friendly data projects using datasets from Kaggle, focusing on data cleaning and basic EDA.</p>
+{% endblock %}
